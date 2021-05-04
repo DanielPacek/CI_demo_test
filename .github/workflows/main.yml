@@ -60,3 +60,4 @@ jobs:
         with:
           fqbn: ${{ matrix.fqbn }}
           sketch-paths: | 
+          libraries: |
