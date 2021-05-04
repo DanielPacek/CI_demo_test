@@ -55,5 +55,5 @@ jobs:
           arduino-cli core install ${{ matrix.arduino-platform }}
       # Finally, we compile the sketch, using the FQBN that was set
       # in the build matrix.
-       - name: Compile Sketch
+      - name: Compile Sketch
         run: arduino-cli compile --fqbn ${{ matrix.fqbn }} 
